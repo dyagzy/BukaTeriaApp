@@ -9,14 +9,17 @@ namespace Buka.Entity
     {
         public BukaModel()
         {
-            Ready = DateTime.Now;
+            //Ready = DateTime.Now;
         }
         public int Id { get; set; }
-        public string FoodName { get; set; }
+        public string BukaName { get; set; }
         public decimal Price { get; set; }
-        public DateTime Ready { get; set; }
+        public OnlineOrder OrderType { get; set; }
+        
+        //public DateTime Ready { get; set; }
 
 
-        public int MyProperty { get; set; }
+        public string Address { get; set; }
+        public int TotalCustomer { get; set; }
     }
 }

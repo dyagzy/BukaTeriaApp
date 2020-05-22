@@ -8,4 +8,8 @@
     <Folder Include="wwwroot\image\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Buka.Entity\Buka.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

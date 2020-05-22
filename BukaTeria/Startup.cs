@@ -19,7 +19,8 @@ namespace BukaTeria
         {
 
             services.AddControllersWithViews();
-            services.AddSingleton <IBukaService, BukaApiService>();
+            services.AddSingleton <IBukaService, BukaMemoryService>();
+            services.AddSingleton<IMenuService, MenuMemoryService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

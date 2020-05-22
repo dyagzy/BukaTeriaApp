@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Buka.Entity
 {
-    class OnlineOrder
-    {
+    public enum OnlineOrder
+    { Yes,
+        No
     }
 }
