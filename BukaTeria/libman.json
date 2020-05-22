@@ -8,6 +8,15 @@
       "files": [
         "dist/css/bootstrap.css"
       ]
+    },
+    {
+      "provider": "cdnjs",
+      "library": "twitter-bootstrap@4.3.1",
+      "destination": "wwwroot/lib/twitter-bootstrap/",
+      "files": [
+        "js/bootstrap.min.js",
+        "js/bootstrap.js"
+      ]
     }
   ]
 }
